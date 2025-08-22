@@ -6,7 +6,7 @@ import seaborn as sns
 # Load Data
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\Users\abaig04\Downloads\uber analytics dashboard\ncr_ride_bookings.csv", parse_dates=["Date"])
+    df = pd.read_csv("ncr_ride_bookings.csv", parse_dates=["Date"])
     df['Hour'] = pd.to_datetime(df['Time'], errors='coerce').dt.hour
     return df
 
