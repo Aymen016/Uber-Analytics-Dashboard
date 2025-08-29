@@ -89,4 +89,3 @@ Interactive charts and filters let you explore ride demand, cancellations, and r
 ## 👨‍💻 Author
 
 **Aymen Baig**  
-Built with ❤️ using Streamlit & Python
